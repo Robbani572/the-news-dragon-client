@@ -16,13 +16,13 @@ const LeftNav = () => {
 
     return (
         <div>
-            <h3>Left Nav</h3>
+            <h3>Categories</h3>
             <div className='mt-4'>
             {
                 categories.map(category => <p
                     key={category.id}
                 >
-                    <Link className='text-decoration-none ps-4 pt-2 text-secondary fw-semibold'>{category.name}</Link>
+                    <Link to={`/category/${category.id}`} className='text-decoration-none ps-4 pt-2 text-secondary fw-semibold'>{category.name}</Link>
                 </p>)
             }
             </div>

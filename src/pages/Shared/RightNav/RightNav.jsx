@@ -10,8 +10,10 @@ const RightNav = () => {
         <div>
             <div>
                 <h3>Login With</h3>
-                <Button className='d-flex justify-content-center gap-2 w-100 align-items-center' variant="outline-primary"> <FaGoogle />  <span className='fw-semibold'>Login with Google</span></Button>
-                <Button className='d-flex justify-content-center gap-2 w-100 align-items-center mt-2' variant="outline-secondary"> <FaGithub />  <span className='fw-semibold'>Login with GitHub</span></Button>
+                <div className="mt-4">
+                    <Button className='d-flex justify-content-center gap-2 w-100 align-items-center' variant="outline-primary"> <FaGoogle />  <span className='fw-semibold'>Login with Google</span></Button>
+                    <Button className='d-flex justify-content-center gap-2 w-100 align-items-center mt-2' variant="outline-secondary"> <FaGithub />  <span className='fw-semibold'>Login with GitHub</span></Button>
+                </div>
             </div>
             <div className='mt-4'>
                 <h3>Find Us On</h3>
